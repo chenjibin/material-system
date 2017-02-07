@@ -19,6 +19,7 @@ module.exports = {
   dev: {
     env: require('./dev.env'),
     port: 8090,
+    httpUrl: 'https://api.github.com',
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {},
